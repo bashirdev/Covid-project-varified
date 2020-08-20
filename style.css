@@ -1,0 +1,77 @@
+body{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     background-image: url('https://www.dentons.com/-/media/images/website/background-images/issues-and-opportunities/covid-19/covid-19_background.jpg');
+  
+}
+.container{
+   
+   
+}
+.row{
+    display: flex;
+justify-content: space-between;
+
+
+}
+.box-card{
+ 
+    margin: 10px;
+   background-color: rgb(251, 122, 1);
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0rem 1.5rem 4rem rgba(0, 0, 0, 0.15);
+}
+
+.box-card .inside-text{
+    text-align: center;
+    padding: 5px;
+}
+
+.search-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+#input{
+    padding: 10px;
+    background-color: goldenrod;
+    border: none;
+    margin: 5px;
+    border-radius: 10px;
+   
+}
+#img{
+  align-items: center;
+  text-align: center;
+  margin-top: 5px;
+  
+}
+#logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+   
+}
+#input:hover{
+    border-bottom:5px solid rgb(255, 83, 4);
+}
+.country{
+    color: green;
+}
+.newCase{
+    color:red;
+}
+.newRe{
+    color: green;
+}
+#date1, #date2, #date3{
+    color: aliceblue;
+}
+
+#footer{
+    text-align: center;
+    color: #eee;
+}
